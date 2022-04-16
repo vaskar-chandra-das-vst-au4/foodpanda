@@ -12,11 +12,14 @@
   padding-bottom: 7px;
 }
 #navbar ul li a {
-  padding: 0 6px 0 6px;
+  padding: 2px 6px 2px 6px;
+  font-size: 1.1rem;
 }
 
-#navbar img {height: 50px;
-   margin-left: 0px;}
+#navbar img {
+  height: 63px;
+  margin-left: 0px;
+}
 
 /* home section */
 .btn {
@@ -26,7 +29,9 @@
   height: 439px;
   padding: 0 5px 0 5px;
 }
-#home::before{ height: 579px;}
+#home::before {
+  height: 579px;
+}
 #home p {
   text-align: center;
   font-size: 1rem;
@@ -84,4 +89,6 @@ h2 {
 #clients img {
   height: 100px;
 }
-.client-item{ padding:0;}
+.client-item {
+  padding: 0;
+}
