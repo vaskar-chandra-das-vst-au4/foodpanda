@@ -20,7 +20,8 @@ html {
   list-style: none;
 }
 
-#navbar {position: fixed;
+#navbar {
+  position: fixed;
   width: 100%;
   z-index: 32;
   display: flex;
@@ -55,7 +56,6 @@ html {
   left: 0px;
   width: 100%;
   z-index: -1;
-  
 }
 #home {
   display: flex;
@@ -81,15 +81,21 @@ html {
   border-radius: 10px;
   cursor: pointer;
   font-family: "Baloo Bhai", cursive;
+ 
 }
-.btn a{text-decoration: none;
-  color: white;}
+.btn a {
+  text-decoration: none;
+  color: white;
 
-  .btn:hover , .btn a:hover {color:#8e3200;
-    background-color: #f8f8f8;
-    font-size: 1.6rem;
-  }
-  
+}
+
+.btn:hover,
+.btn a:hover {
+  color: #8e3200;
+  background-color: #f8f8f8;
+  font-size: 1.6rem;
+}
+
 /* services section */
 .box img {
   height: 201px;
@@ -109,7 +115,8 @@ html {
   padding: 33px;
   border-radius: 34px;
   flex-direction: column;
-  background-color: #ebe3e3;}
+  background-color: #ebe3e3;
+}
 .box p {
   font-family: "Roboto", sans-serif;
   text-align: justify;
@@ -117,7 +124,6 @@ html {
 }
 #services-container {
   background: url("servicesbg.jpg") no-repeat center center/cover;
-  
 }
 /* client section */
 #client-section::before {
@@ -225,7 +231,6 @@ h2 {
   font-size: 1.9rem;
   padding: 12px;
   text-align: center;
-
 }
 
 .h1-primary {
@@ -247,5 +252,4 @@ h2 {
 }
 hr {
   border: 3px dotted rgb(32, 32, 32);
- 
 }

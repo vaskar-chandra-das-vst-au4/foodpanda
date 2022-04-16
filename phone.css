@@ -6,13 +6,16 @@
 }
 #navbar ul li {
   font-size: 1rem;
-  padding-top: 10px;
+  padding-top: 0;
   padding-left: 0;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 7px;
+}
+#navbar ul li a {
+  padding: 0 6px 0 6px;
 }
 
-#navbar img {
+#navbar img {height: 50px;
    margin-left: 0px;}
 
 /* home section */
@@ -30,7 +33,7 @@
 }
 
 .h-primary {
-   font-weight: bolder;
+  font-weight: bolder;
   color: white;
   font-family: "Sacramento", cursive;
   letter-spacing: 2px;
@@ -81,3 +84,4 @@ h2 {
 #clients img {
   height: 100px;
 }
+.client-item{ padding:0;}
