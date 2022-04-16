@@ -30,13 +30,13 @@
 }
 
 .h-primary {
-  font-weight: bolder;
+   font-weight: bolder;
   color: white;
   font-family: "Sacramento", cursive;
   letter-spacing: 2px;
-  font-size: 1.5rem;
+  margin: 278px 0 0 0;
+  font-size: 1.8rem;
   text-align: center;
-  margin: 138px 0 0 0;
 }
 /* services section */
 #services {
