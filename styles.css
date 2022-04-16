@@ -20,7 +20,9 @@ html {
   list-style: none;
 }
 
-#navbar {
+#navbar {position: fixed;
+  width: 100%;
+  z-index: 32;
   display: flex;
   font-family: "Bree Serif", serif;
   background-color: rgb(35, 35, 35, 0.3);
