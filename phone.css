@@ -20,7 +20,7 @@
   font-size: 1rem;
 }
 #home {
-  height: 288px;
+  height: 439px;
   padding: 0 5px 0 5px;
 }
 #home::before{ height: 579px;}
