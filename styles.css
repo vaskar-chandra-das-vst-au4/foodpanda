@@ -53,7 +53,7 @@ html {
   left: 0px;
   width: 100%;
   z-index: -1;
-  opacity: 0.89;
+ 
 }
 #home {
   display: flex;
@@ -108,6 +108,7 @@ html {
 }
 #services-container {
   background: url("servicesbg.jpg") no-repeat center center/cover;
+  
 }
 /* client section */
 #client-section::before {
@@ -215,6 +216,7 @@ h2 {
   font-size: 1.9rem;
   padding: 12px;
   text-align: center;
+
 }
 
 .h1-primary {
@@ -222,16 +224,26 @@ h2 {
   font-family: "Bree Serif", serif;
   font-size: 2.3rem;
   padding: 58px;
+  letter-spacing: 5px;
   text-align: center;
+}
+.h3-primary {
+  color: rgb(255, 255, 255);
+  font-family: "Bree Serif", serif;
+  font-size: 2.3rem;
+  padding: 58px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 .h2-primary {
   color: black;
   font-family: "Bree Serif", serif;
   font-size: 2.3rem;
   padding: 58px;
+  letter-spacing: 5px;
   text-align: center;
 }
 hr {
-  border: 2px dotted rgb(161, 161, 161);
-  border-bottom: none;
+  border: 3px dotted rgb(32, 32, 32);
+ 
 }
