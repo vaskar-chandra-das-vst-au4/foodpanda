@@ -82,7 +82,14 @@ html {
   cursor: pointer;
   font-family: "Baloo Bhai", cursive;
 }
+.btn a{text-decoration: none;
+  color: white;}
 
+  .btn:hover , .btn a:hover {color:#8e3200;
+    background-color: #f8f8f8;
+    font-size: 1.6rem;
+  }
+  
 /* services section */
 .box img {
   height: 201px;
