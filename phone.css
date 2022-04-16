@@ -23,7 +23,7 @@
   height: 288px;
   padding: 0 5px 0 5px;
 }
-
+#home::before{ height: 555px;}
 #home p {
   text-align: center;
   font-size: 1rem;
